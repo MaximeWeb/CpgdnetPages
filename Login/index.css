@@ -149,6 +149,9 @@ button {
     margin-top: 0px;
     margin-left: 20px;
   }
+    .buttonNextPage {
+ display: none;
+}
 }
 
 @media (max-width: 768px) {
@@ -174,4 +177,19 @@ button {
     margin-top: 0px;
     margin-left: 20px;
   }
+  .buttonNextPage {
+ display: none;
+}
+}
+
+
+.buttonNextPage {
+  width: 160px;
+  height: 38px;
+  position: relative;
+  top:400px;
+  border: 2px solid #a87a55;
+  padding-top:18px;
+  padding-left:10px;
+
 }
