@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header */
+header {
+    display: flex;
+    justify-content: space-between;
+    /* border-bottom: 2px solid #0c4e9e; */
+   background-color: white;
+  
+}
+.divLogoCPGD {
+    text-align: center;
+    font-size: 14px;
+margin-left: 40px;
+margin-top: 20px;
+}
+.divLogoCPGD p {
+  margin: 0;
+}
+.logoCPGD {
+  margin-right: 10px;
+  height: 70px;
+}
+
+.logoCPGDNET{
+  margin-right: 60px;
+margin-top: 40px;
+}
+
+.blocContact {
+    margin-top: 40px;
+ margin-right: 100px;
+}
+
+.contactInfo a {
+  text-decoration: none;
+  color: black;
+  font-weight: normal;
+}
+
+.contactInfo {
+  color: #a87a55;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* main */ 
+
+main {
+    display: flex;
+      margin: auto;
+    margin-top: 30px;
+    justify-content: space-evenly;
+}
+
+
+/*bloc middle */
+
+.blocUserInfos {
+      width: 600px;
+  height: 600px;
+  background-color: white;
+  border-radius: 10px;
+  /* text-align: center; */
+  padding-top: 10px;
+}
+
+.textMenuClients {
+    font-size: 20px;
+    color : #0c4e9e;
+  margin-left:230px;
+
+}
+
+.blocTypeDeSurveillance {
+    width: 400px;
+    height: 200px;
+    border: 2px solid #a47d5b;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 30px;
+    background-color: whitesmoke;
+  
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.typeText {
+    margin-left: 10px;
+}
+
+.divAlerte {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.blocInfo1 {
+    width: 280px;
+    height: 200px;
+    border: 2px solid #0c4e9e;
+    border-radius: 10px;
+     background-color: whitesmoke;
+}
+.blocInfo2 {
+    width: 280px;
+    height: 200px;
+    border: 2px solid #0c4e9e;
+       border-radius: 10px;
+        background-color: whitesmoke;
+}
+
+.footerWidgetMiddle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.infoDirigeant {
+    margin-top: 40px;
+    margin-left: 20px;
+    font-size: 12px;
+    width: 200px;
+}
+.textMetro {
+ margin-top: 70px;
+ margin-right: 20px;
+ font-weight:bold;
+}
+
+/* bloc widgets */
+
+.blocWidgets {
+  width: 300px;
+  height: 600px;
+  background-color: white;
+    border-radius: 10px;
+}
+
+.buttonWidget {
+    width: 250px;
+    height: 60px;
+    background-color: #a47d5b;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 30px;
+    color: white;
+     border: 2px solid transparent;
+}
+
+.buttonWidget:hover {
+  background-color: whitesmoke;
+  cursor: pointer;
+  border-color: #a47d5b;
+  color: #a47d5b;
+
+   
+}
+.buttonWidget p{
+    text-align: center;
+   padding-top: 5px;
+}
+
+.alertNewDoc {
+   position: relative;
+   bottom: 25px;
+   color:red;
+}
