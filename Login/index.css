@@ -1,6 +1,6 @@
 body {
   margin: 0px;
-  background-image: url("assets/FlecheMenu3.webp");
+  background-image: url("/assets/FlecheMenu3.webp");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
