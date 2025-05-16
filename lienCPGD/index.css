@@ -30,6 +30,7 @@ margin-top: 20px;
 .logoCPGD {
   margin-top: 10px;
   height: 75px;
+  margin-right: 150px;
 }
 
 .logoCPGDNET{
@@ -60,6 +61,7 @@ margin-top: 40px;
 header strong {
   color :#a87a55;
   font-size: 16px;
+
 }
 
 i {
@@ -101,11 +103,16 @@ main {
 }
 
 .blocLinks strong {
- color: #10509a;
- position: relative;
- top:10px;
+ color: white;
   margin-bottom: 10px;
   display: inline-block;
+    width: 100%;
+  background-color: #a87a55;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  margin-top: 0px;
+ padding-top: 5px;
+ padding-bottom: 5px;
 }
 
 .blocLinks p {
