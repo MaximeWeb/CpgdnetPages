@@ -104,7 +104,7 @@ main {
 
 .blocLinks strong {
  color: white;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   display: inline-block;
     width: 100%;
   background-color: #a87a55;
@@ -131,3 +131,96 @@ a {
  text-decoration: none;
  color: black;
 }
+
+
+@media (min-width: 769px) and (max-width: 1424px) {
+.blocContact {
+display: none;
+}
+main {
+ background-image: none;
+  
+}
+.logoCPGD {
+  height: 55px;
+  margin-right: 0px;
+  margin-top: 10px;
+}
+.blocLinks {
+  width: 500px;
+  height: 150px;
+  margin: auto;
+  margin-top: 20px;
+}
+.blocLinks strong {
+font-size: 15px;
+}
+
+.blocLinks p {
+  /* padding-top: 10px; */
+ font-size: 15px;
+padding-left: 10px;
+padding-right: 3px;
+}
+.flexLinks {
+  /* margin-top: 20px; */
+
+ display: flex;
+ flex-direction: column;
+ 
+  /* margin-bottom: 20px; */
+}
+.divLogoCPGD {
+    text-align: center;
+    font-size: 15px;
+margin-left: 20px;
+margin-top: 5px;
+}
+}
+
+@media (max-width: 800px) {
+.blocContact {
+display: none;
+}
+.logoCPGD {
+  height: 45px;
+  margin-right: 0px;
+  margin-top: 10px;
+}
+main {
+ background-image: none;
+  
+}
+.blocLinks {
+  width: 320px;
+  height: 150px;
+  margin: auto;
+  margin-top: 20px;
+}
+.blocLinks strong {
+font-size: 14px;
+}
+
+.blocLinks p {
+  /* padding-top: 10px; */
+ font-size: 13px;
+padding-left: 10px;
+padding-right: 3px;
+}
+.flexLinks {
+  /* margin-top: 20px; */
+
+ display: flex;
+ flex-direction: column;
+ 
+  /* margin-bottom: 20px; */
+}
+.divLogoCPGD {
+    text-align: center;
+    font-size: 12px;
+margin-left: 20px;
+margin-top: 5px;
+}
+}
+
+
